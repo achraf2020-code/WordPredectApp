@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,200;1,300;1,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* height: 1080px; */
+    width: 100 vw;
+    background-image: url(./img/bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text h1{
+width: 603px;
+font-weight: 900;
+font-size: 48px;
+line-height: 72px;
+}
+.text h2{
+font-weight: 500;
+font-style: italic;
+font-size: 36px;
+line-height: 54px;
+color: #C4C4C4;
+margin: 31px 0 41px;
+}
+.btn{
+    margin-top: 127px;
+    text-align: center;
+    Width:944px;
+    Height :148px;
+    background: linear-gradient(90deg, rgba(252, 255, 104, 0.86) 2.12%, #BAFC00 100%);
+    border-radius: 370px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn .robot-img{
+    position: absolute;
+    bottom: -26px;
+    left: -90px;
+}
+.btn a{
+    /* padding: 74px 472px; */
+    text-decoration: none;
+    /* background: red; */
+    position: absolute;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+
+/* identical to box height */
+    text-transform: uppercase;
+    color: #644CF7;
+    line-height: 94px;
+}
+.btn a>img{
+    position: absolute;
+    right: -150px;
+    /* left: 50px; */
+}
+/* #inputField{
+    display: block;
+    height: 110px;
+    width: 944px;
+    background:rgba(196, 196, 196,0.8);
+    border-radius: 370px;
+    border-radius: 370px;
+    border: none;
+    outline: none;
+    color: white;
+    line-height:110px ;
+    padding-left: 92.5px;
+    font-size: 30px;
+    /* position: relative; */
+    /* box-shadow: 1px 1px 6px rgb(0 0 0 / 70%);  */
+    /* z-index: 1; */
+/* }  */
+/* #response{
+    margin-top: 41px;
+    display: block;
+    background: lightblue;
+    width: 100%;
+    padding: 0 auto;
+   
+    /* margin-top: 41px; */
+    /* display: block; */
+  
+/* } */
+/* #response li{
+    line-height: 26.4px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.1rem;
+} */ 

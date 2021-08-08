@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,200;1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+}
+.container {
+    
+    /* background: lightcyan; */
+    /* overflow: hidden;
+    width: 100vw; */
+    /* position: relative; */
+}
+.warpper{
+    margin: 0 auto;
+    width: 95%;
+}
+.dialog {
+    /* height: 631px; */
+    width: 100%;
+    /* background: lightpink; */
+        margin-bottom: 158px;
+}
+.msgDialog{
+    display: flex;
+    align-items: center;
+    margin: 50px 15px;
+}
+.user-label{
+    padding: 20px;
+    border-radius: 100%;
+    background: #56FFBF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-right: 23px;
+}
+#user-text{
+    /* height: 142px;  */
+    /* text-align: left; */
+    border-radius: 80px;
+    padding: 25px 85px;
+    background: rgba(199, 252, 24, 0.3);
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 39px;
+}
+/* robot msg */
+.msgDialog img{
+    width: 75px;
+    margin-left: 23px;
+    
+}
+.robot-text-toEnd{
+    justify-content:flex-end !important;
+}
+#robot-text{
+    /* width: 800px; */
+    border-radius: 80px;
+    padding: 25px 85px;
+    background: rgba(239, 110, 110, 0.3);
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    /* text-align: right; */
+    font-size: 26px;
+    font-style: italic;
+    line-height: 39px;
+}
+/* send msg area  */
+.send-msg{
+    height: 150px;
+    width: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#send-text{
+ 
+padding: 16px;
+font-size: 25px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px;
+height: 96px;
+width: 80%;
+outline: none;
+resize: none;
+overflow: hidden;
+line-height: 39px;
+box-shadow: 0px -3px 2px rgb(0 0 0 / 6%);
+}
+#send-btn{
+  
+width: 100px;
+height: 96px;
+background: #56FFBF;
+border-radius: 10px;
+border: none;
+outline: none;
+}
+#send-btn img{
+    max-width: 50%;
+}
